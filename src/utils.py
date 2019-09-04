@@ -6,5 +6,7 @@ def hello_world():
 
 def show_df(df):
     print(df.shape)
+    print("\n")
     print(df.head())
+    print("\n")
     print(df.describe())
